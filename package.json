@@ -1,0 +1,30 @@
+{
+  "name": "threeknights",
+  "version": "1.0.0",
+  "description": "three knights game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeepnama89/threeknights.git"
+  },	
+  "keywords": [
+    "game"
+  ],
+  "author": "pradeep-nama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.7.2"
+  }
+}
